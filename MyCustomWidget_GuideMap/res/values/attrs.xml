@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <attr name="DashedSpace" format="float"></attr>
+    <attr name="ViewDY" format="dimension"></attr>
+    
+    <attr name="MeanItemWidth" format="dimension"></attr>
+    <attr name="ArrowsWidth" format="dimension"></attr>
+    <attr name="PaintColor" format="color"></attr>
+    <attr name="PaintWidth" format="integer"></attr>
+    
+    <declare-styleable name="GuideMapSetting">
+        <attr name="PaintWidth"></attr>
+        <attr name="DashedSpace"></attr>
+        <attr name="PaintColor"></attr>
+        <attr name="ArrowsWidth"></attr>
+        <attr name="MeanItemWidth"></attr>
+        <attr name="ViewDY"></attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="bottom"
+     android:layout_width="fill_parent"
+   	android:layout_height="50dip" 
+    android:orientation="vertical" >
+     <View
+       android:background="#E0dfdd"
+        android:layout_width="fill_parent"
+    	android:layout_height="0.5dip" 
+    	
+       />
+   
+    <LinearLayout 
+        android:id="@+id/bing_car_driver_ll"
+        android:layout_gravity="bottom"
+        android:layout_width="fill_parent"
+    	android:layout_height="50dip" 
+    	android:gravity="center"
+    	android:background="@drawable/popwindow_selection"
+    	android:orientation="horizontal"
+        >
+        
+        <ImageView 
+            android:background="@drawable/ic_bind_car_and_driver"
+             android:layout_width="20dip"
+    	android:layout_height="20dip" 
+            />
+        <TextView 
+            android:layout_marginLeft="5dip"
+            android:textColor="#000000"
+            android:text="绑定机动车和驾驶证"
+             android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+            />
+    </LinearLayout>
+
+</LinearLayout>
